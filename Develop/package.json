@@ -1,7 +1,6 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -19,7 +18,8 @@
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "concurrently": "^8.2.0",
+    "nodemon": "^1.14.9"
+  },
+  "description": ""
 }
