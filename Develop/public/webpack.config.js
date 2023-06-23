@@ -7,7 +7,7 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: 'Develop/client/src/js/index.js',
+      main: 'Develop/src/js/index.js',
       install: 'Develop/client/src/js/install.js'
     },
     output: {
@@ -21,7 +21,7 @@ module.exports = () => {
       }),
       new HtmlWebpackPlugin({
         filename: 'install.html',
-        template: './src/install.html',
+        template: 'Develop/public/index.html',
         chunks: ['install'],
       }),
       new WebpackPwaManifest({
